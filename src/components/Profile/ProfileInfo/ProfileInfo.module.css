@@ -1,0 +1,31 @@
+.descriptionBlock {
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.ava {
+    width: 120px;
+    height: 120px;
+}
+
+.description {
+    margin-left: 20px;
+}
+
+.description p {
+    margin: 0 0 12px 0;
+    font-size: 17px;
+}
+
+.description button {
+    background: #f4eee3;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.description button:hover {
+    background: black;
+    color: #f4eee3;
+}

@@ -1,0 +1,64 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogsItem {
+    border-right: 1px solid black;
+}
+
+.dialog {
+    display: flex;
+    align-items: center;
+    margin: 15px 0 15px 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.dialogsItem .active {
+    margin: 15px 0 15px 10px;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.messages {
+    margin-top: 10px;
+}
+
+.message {
+    border: 1px solid black;
+    width: 200px;
+    border-radius: 8px;
+    padding: 5px 5px;
+    margin-top: 15px;
+    margin-left: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.users {
+    width: 40px;
+    height: 40px;
+}
+
+.addMessage {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+.add {
+    margin-top: 15px;
+    width: 110px;
+    height: 30px;
+    background: black;
+    color: #f4eee3;
+    border: 1px solid black;
+    border-radius: 6px;
+}

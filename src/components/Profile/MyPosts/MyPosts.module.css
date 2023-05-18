@@ -1,0 +1,22 @@
+.posts {
+    margin-top: 20px;
+}
+
+.myPosts {
+
+}
+
+.myPosts h3 {
+    font-size: 21px;
+    font-weight: 400;
+    border-bottom: 1px solid black;
+}
+
+.myPosts button {
+    margin-top: 10px;
+    margin-right: 10px;
+    background: #f4eee3;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 5px;
+}
